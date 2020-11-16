@@ -1,0 +1,61 @@
+div{
+  section{
+    display: flex;
+    flex-direction: row;
+    background: url(/static/html/fon_t.png);
+    background-size: 100%;
+    z-index: 1;
+    //background-color: #00d21e;
+    //overflow: hidden;
+    nav{
+      display: flex;
+      min-width: 20vw;
+      p{
+        width: 100%;
+        margin: 0;
+      }
+    }
+    section{
+      box-sizing: border-box;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      //padding-left: 8vw;
+      //padding-right: 8vw;
+      header{
+        //overflow: hidden;
+        margin-top: .5vw;
+        //position: sticky;
+        //top: 0vw;
+        z-index: 99999999;
+      }
+      main{
+        display: flex;
+        flex-direction: column;
+        p{
+          margin: 0;
+        }
+        p.main-manager{
+          align-self: center;
+          display: flex;
+          width: 100%;
+        }
+        p.scroll{
+          display: flex;
+          position: fixed;
+          top: 25%;
+          left: 93vw;
+        }
+        p.card-admin{
+          justify-content: space-evenly;
+        }
+
+      }
+      footer{
+
+      }
+    }
+  }
+}
+
