@@ -1,0 +1,77 @@
+@import "./fonts.scss";
+pre {
+    padding: 0.2vw;
+    overflow: auto;
+    @include fonts(4);
+    line-height: 1.45;
+    background-color: var(--aqua_haze);
+    border-radius: 6px;
+}
+
+code {
+	background-color: #F8F8F8;
+	border-radius: 0.2vw;
+	border: 0.1vw solid #DDD;
+	font-family: Consolas, "Liberation Mono", Courier, monospace;
+    @include fonts(4);
+	margin: 0 0.1vw;
+	padding: 0 0.1vw;
+	white-space: pre;
+}
+
+a {
+	color: #4183c4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	}
+
+p, blockquote, ul, ol, dl, table, pre {
+	margin: 0.4vw 0;
+}
+
+ul, ol {
+	padding-left: 1vw;
+}
+
+h1 {
+	border-bottom: 0.1vw solid #ddd;
+	color: #000;
+    @include fonts(10);
+}
+
+h2 {
+	border-bottom: 1px solid #eee;
+	color: #000;
+    @include fonts(9);
+}
+
+h3 {
+	@include fonts(8);
+}
+
+h4 {
+	@include fonts(7);
+}
+
+h5 {
+	@include fonts(6);
+}
+
+h6 {
+	color: #777;
+	@include fonts(5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1.7;
+	margin: 0.2vw 0 0.2vw 0;
+	}
+
+h1 + p, h2 + p, h3 + p {
+	margin-top: 10px;
+}
+	

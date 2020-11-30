@@ -34,17 +34,13 @@
   {
     font-size: 2.422vw;
   }
-  @else if($obj == 8)
+  @else if($obj == 9)
   {
     font-size: 2.773vw;
   }
-  @else if($obj == 9)
-  {
-    font-size: 3.398vw;
-  }
   @else if($obj == 10)
   {
-    font-size: 3.638vw;
+    font-size: 3.398vw;
   }
   @else if($obj == 11)
   {
@@ -52,21 +48,25 @@
   }
   @else if($obj == 12)
   {
-    font-size: 3.895vw;
+    font-size: 3.638vw;
   }
   @else if($obj == 13)
   {
-    font-size: 4.171vw;
+    font-size: 3.895vw;
   }
   @else if($obj == 14)
   {
-    font-size: 4.466vw;
+    font-size: 4.171vw;
   }
   @else if($obj == 15)
   {
-    font-size: 4.782vw;
+    font-size: 4.466vw;
   }
   @else if($obj == 16)
+  {
+    font-size: 4.782vw;
+  }
+  @else if($obj == 17)
   {
     font-size: 5.151vw;
   }
